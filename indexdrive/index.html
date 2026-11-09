@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Фатеев Владислав">
+    <meta name="description" content="IndexDrive — аренда автомобилей">
+    <title>IndexDrive — аренда автомобилей</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- шапка сайта -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <a class="navbar-brand" href="index.html">Index <span>Drive</span></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                aria-label="Меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="branches.html">Филиалы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Бронирование</a>
+                    </li>
+                    <li class="nav-item ml-lg-3">
+                        <a class="btn btn-primary" href="login.html">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container content">
+
+        <!-- первый экран -->
+        <section class="row align-items-center promo">
+            <div class="col-lg-7">
+                <p class="subtitle">Прокат автомобилей</p>
+                <h1>На любой случай — любой автомобиль</h1>
+                <p class="lead">
+                    Выберите автомобиль, укажите место и время, оплатите удобным способом.
+                    Быстро. Просто. Надёжно.
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <img class="promo-img" src="images/car-main.png" alt="Автомобиль IndexDrive">
+            </div>
+        </section>
+
+        <!-- форма поиска -->
+        <section class="search">
+            <h2>Поиск автомобиля</h2>
+
+            <div class="row align-items-end">
+                <div class="form-group col-md-3">
+                    <label for="class">Класс</label>
+                    <select class="form-control" id="class">
+                        <option>Любой</option>
+                        <option>Эконом</option>
+                        <option>Комфорт</option>
+                        <option>Премиум</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="make">Марка</label>
+                    <select class="form-control" id="make">
+                        <option>Любая</option>
+                        <option>Toyota</option>
+                        <option>BMW</option>
+                        <option>Kia</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="model">Модель</label>
+                    <select class="form-control" id="model">
+                        <option>Любая</option>
+                        <option>Camry</option>
+                        <option>5 Series</option>
+                        <option>Rio</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="branch">Филиал</label>
+                    <select class="form-control" id="branch">
+                        <option>Любой</option>
+                        <option>Центр</option>
+                        <option>Аэропорт</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <a class="btn btn-primary" href="vehicles.html">Найти</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- преимущества -->
+        <section class="block">
+            <div class="row">
+                <article class="col-md-4 mb-3">
+                    <div class="advantage">
+                        <h3>Надёжность</h3>
+                        <p>Тщательная проверка автомобиля перед каждой выдачей.</p>
+                    </div>
+                </article>
+                <article class="col-md-4 mb-3">
+                    <div class="advantage">
+                        <h3>Удобство</h3>
+                        <p>Быстрая бронь, гибкие условия и оплата.</p>
+                    </div>
+                </article>
+                <article class="col-md-4 mb-3">
+                    <div class="advantage">
+                        <h3>Скорость</h3>
+                        <p>Оформление за несколько минут.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- новости -->
+        <section class="block">
+            <h2>Новости</h2>
+
+            <div class="row mt-3">
+                <article class="col-md-4 mb-4">
+                    <div class="news-block">
+                        <img src="images/news-car.jpg" alt="Новость 1">
+                        <h3>Новые автомобили в автопарке</h3>
+                        <p>Короткое описание новости и обновлений сервиса.</p>
+                        <a class="btn btn-primary btn-sm" href="history.html">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="col-md-4 mb-4">
+                    <div class="news-block">
+                        <img src="images/news-service.jpg" alt="Новость 2">
+                        <h3>Проверка перед каждой поездкой</h3>
+                        <p>Короткое описание новости и обслуживания автомобилей.</p>
+                        <a class="btn btn-primary btn-sm" href="history.html">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="col-md-4 mb-4">
+                    <div class="news-block">
+                        <img src="images/news-branch.jpg" alt="Новость 3">
+                        <h3>Открытие нового филиала</h3>
+                        <p>Короткое описание новости о пунктах проката.</p>
+                        <a class="btn btn-primary btn-sm" href="branches.html">Подробнее</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- подвал -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <div>
+                <a class="footer-name" href="index.html">IndexDrive</a>
+                <p>Телефон: 8 (800) 555-35-35</p>
+            </div>
+
+            <nav class="footer-menu">
+                <a href="history.html">История</a>
+                <a href="branches.html">Филиалы</a>
+                <a href="vehicles.html">Автомобили</a>
+                <a href="login.html">Вход</a>
+                <a href="register.html">Регистрация</a>
+                <a href="booking.html">Бронирование</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

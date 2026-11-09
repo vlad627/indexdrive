@@ -1,0 +1,413 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header .navbar {
+    min-height: 82px;
+}
+
+.navbar-brand {
+    color: #d73136 !important;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.navbar-brand span {
+    color: #202124;
+}
+
+.nav-link {
+    color: #202124 !important;
+}
+
+
+.btn {
+    border-radius: 4px;
+    font-weight: 700;
+    padding: .6rem 1.15rem;
+}
+
+.btn-primary {
+    background: #438be8;
+    border-color: #438be8;
+}
+
+
+.content {
+    flex: 1;
+    padding-top: 54px;
+    padding-bottom: 76px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: .55rem;
+}
+
+h2 {
+    font-size: 1.55rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #d73136;
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: .55rem;
+}
+
+.lead,
+.form-text {
+    color: #697078;
+}
+
+.block {
+    padding-top: 48px;
+}
+
+
+.form-block {
+    padding-top: 56px;
+}
+
+.form-block h1 {
+    margin-bottom: .4rem;
+}
+
+.form-text {
+    margin-bottom: 28px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: .4rem;
+}
+
+.form-control {
+    min-height: 44px;
+    border-color: #cfd3d7;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #438be8;
+    box-shadow: 0 0 0 .18rem rgba(67, 139, 232, .16);
+}
+
+.form-note {
+    margin-top: 20px;
+}
+
+.form-part {
+    border-top: 1px solid #e3e6e8;
+    padding-top: 24px;
+    margin-top: 26px;
+}
+
+.form-part h2 {
+    margin-bottom: 20px;
+}
+
+
+.table thead th {
+    border-top: 0;
+    border-bottom: 2px solid #d7dadd;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+    padding: .85rem .75rem;
+}
+
+/* Подвал */
+
+.footer {
+    border-top: 1px solid #e3e6e8;
+    padding: 24px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-top p {
+    color: #697078;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.footer-name {
+    color: #d73136;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 20px;
+    max-width: 560px;
+}
+
+.footer-menu a {
+    color: #535960;
+    font-size: .9rem;
+}
+
+
+.promo {
+    padding: 22px 0 40px;
+}
+
+.promo-img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.search,
+.cars-list {
+    background: #e1edf2;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.search h2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.advantage {
+    text-align: center;
+    padding: 26px 18px;
+    border: 1px solid #e3e6e8;
+    border-radius: 6px;
+    min-height: 150px;
+}
+
+.advantage h3 {
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.advantage p {
+    margin: 0;
+}
+
+.news-block,
+.car-card,
+.panel {
+    border: 1px solid #e3e6e8;
+    border-radius: 8px;
+    padding: 14px;
+    height: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .12);
+}
+
+.news-block img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.news-block h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.news-block p {
+    font-size: .92rem;
+}
+
+
+.map-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+    border: 2px solid #999;
+    border-radius: 14px;
+}
+
+.cars-list h3 {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+}
+
+.car-mini {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px #999;
+}
+
+.car-mini img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.car-mini h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 8px 0 0;
+}
+
+.car-card img {
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.car-card h2 {
+    font-size: 1.35rem;
+    margin-top: 18px;
+}
+
+
+.panel h2 {
+    font-size: 1.35rem;
+}
+
+.avatar {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    background: #75aee5;
+    border-radius: 8px;
+}
+
+.booking-item,
+.history-item,
+.card-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px;
+    border: 1px solid #d5d5d5;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px #bbb;
+}
+
+.booking-item img {
+    width: 175px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.booking-item p {
+    margin: 0 0 6px;
+}
+
+.history-item {
+    align-items: flex-start;
+}
+
+.history-item > img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-item {
+    justify-content: space-between;
+    min-height: 92px;
+}
+
+.card-item > div {
+    font-size: 1.1rem;
+}
+
+.card-item button {
+    margin-left: auto;
+}
+
+
+@media (max-width: 767.98px) {
+    .content {
+        padding-top: 34px;
+        padding-bottom: 48px;
+    }
+
+    .footer-top {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        justify-content: flex-start;
+    }
+
+    .promo-img {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .promo h1 {
+        font-size: 2.25rem;
+    }
+
+    .search {
+        padding: 18px;
+    }
+
+    .history-item {
+        flex-direction: column;
+    }
+
+    .history-item > img {
+        width: 100%;
+        height: 190px;
+    }
+
+    .booking-item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .booking-item img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .map-img {
+        max-height: none;
+    }
+
+    .card-item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .card-item button {
+        margin-left: 0;
+    }
+}
